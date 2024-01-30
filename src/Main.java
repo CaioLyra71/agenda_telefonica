@@ -124,7 +124,7 @@ public class Main {
                     writer.newLine();
                 }
                 writer.newLine();
-                //escreverNoArquivoTelefone(contato.getTelefones());
+
             }
         } catch (IOException e) {
             System.err.println("Erro ao escrever no arquivo " + fileName + ": " + e.getMessage());
